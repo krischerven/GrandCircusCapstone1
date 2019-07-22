@@ -29,7 +29,7 @@ public class Week1Capstone {
 	}
 	
 	private static boolean yes(final String parsing) {
-		switch (parsing.toLowerCase().strip()) {
+		switch (parsing.toLowerCase().trim()) {
 			case "y": 
 			case "yes": {
 				return true;
